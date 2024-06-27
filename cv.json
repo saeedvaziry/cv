@@ -1,0 +1,143 @@
+{
+  "name": "Saeed Vaziry",
+  "title": "Tech Lead / Software Engineer",
+  "email": "sa.vaziry@gmail.com",
+  "phone": "",
+  "country": "Germany",
+  "city": "Düsseldorf",
+  "address": "Düsseldorf",
+  "summary": "Hello, I’m Saeed. I have been working as a software engineer since 2010. During these years, I’ve led and collaborated with teams ranging from 3 to 10 members using agile methodologies. I’ve primarily served as a Tech Lead and Backend Engineer across three countries. My experience spans various domains, including large-scale platforms and e-commerce systems. My main tech stack includes PHP, Laravel, and JavaScript, but I have continually adapted to new technologies throughout my career.",
+  "professional_summary": "Highly motivated and continuously seeking improvement, I tackle tasks with curiosity and creativity, always pursuing optimal solutions. Proactive and eager to learn, I embrace diverse perspectives and develop unique frameworks as necessary.",
+  "experiences": [
+    {
+      "title": "Tech Lead - Payments",
+      "employer": "Metro Markets",
+      "start": "2022-12",
+      "end": "Present",
+      "country": "Germany",
+      "city": "Düsseldorf",
+      "description": "Led a team of 6 engineers at Metro Markets, driving significant achievements and fostering an innovative culture.<br/>Orchestrated strategic infrastructure optimization, reducing operational costs by 80% and enhancing system efficiency and reliability.<br/>Spearheaded global expansion initiatives, and integrated new payment methods such as Paypal BNPL for 4 new countries.<br/>Advocated for personal development, supporting team members' growth plans to cultivate a supportive work environment.<br/>Designed and implemented an innovative reporting system to generate more than 1000 pages of PDF files with a 200% reduction in costs.<br/>Pioneered a new payment method (SEPA DD) and improved the authorization rate by 20%."
+    },
+    {
+      "title": "Software Engineer - Payments",
+      "employer": "Metro Markets",
+      "start": "2022-03",
+      "end": "2022-12",
+      "country": "Germany",
+      "city": "Düsseldorf",
+      "description": "Played a pivotal role as a Software Engineer in Metro Markets' Payments team, focusing on developing and maintaining various payment integrations such as PayPal, Card payments, OpenInvoice, Sofort, and iDeal.<br/>Enhanced internal accounting systems, optimizing financial operations and payout processes for all payment methods.<br/>Leveraged cutting-edge tools and technologies including Grafana for real-time monitoring and analytics, ensuring high system performance and reliability.<br/>Demonstrated a deep understanding of both technical and business aspects of payment processing, ensuring alignment with company strategic goals and enhancing customer payment experiences."
+    },
+    {
+      "title": "Co-founder and Software Engineer",
+      "employer": "Regika Holding",
+      "start": "2019-10",
+      "end": "2021-06",
+      "country": "Armenia",
+      "city": "Yerevan",
+      "description": "Spearheaded the development of the innovative Regika web application at Regika Holding, aimed at streamlining server and application management processes.<br/>Conceptualized and created a comprehensive solution for managing servers, sites, applications, and deployments, automating server setup and expediting the preparation of production-ready PHP applications.<br/>Engineered robust integrations with top cloud platforms including Amazon Web Services, DigitalOcean, and Vultr, providing users with diverse deployment options and scalability enhancements.<br/>Empowered users with extensive control over application caches, queues, and databases, optimizing performance and efficiency."
+    },
+    {
+      "title": "Lead Software Engineer",
+      "employer": "Pay.ir, Iranian Payment Gateway",
+      "start": "2016-06",
+      "end": "2019-10",
+      "country": "Iran",
+      "city": "Tehran",
+      "description": "Led a team of 3 engineers to build sophisticated microservices, ensuring scalability and reliability to serve over 1m customers.<br/>Crafted intuitive Front-End solutions for Pay.ir's website, enhancing user experience and interface aesthetics.<br/>Engineered a web chat application, enabling real-time communication capabilities for more than 1000 users in real-time.<br/>Orchestrated an intensive on-the-job training boot camp, empowering engineering interns with proficiency in PHP and Vue.js technologies.<br/>Ensured platform robustness and stability through rigorous unit testing of all API endpoints."
+    },
+    {
+      "title": "PHP Developer",
+      "employer": "Dabacenter",
+      "start": "2013-04",
+      "end": "2016-06",
+      "country": "Iran",
+      "city": "Tehran",
+      "description": "Developed Back-End services of Tolidat.ir website<br/>Developed clean Rest API of Tolidat.ir website"
+    }
+  ],
+  "educations": [
+    {
+      "school": "University of Urmia",
+      "degree": "Bachelor",
+      "field": "Computer Software Engineering",
+      "country": "Iran",
+      "city": "Urmia",
+      "date": {
+        "start": "2011",
+        "end": "2015"
+      }
+    }
+  ],
+  "links": [
+    { "title": "LinkedIn", "url": "https://www.linkedin.com/in/saeedvaziry/" },
+    { "title": "GitHub", "url": "https://github.com/saeedvaziry" },
+    { "title": "Blog", "url": "https://yecoder.com" },
+    { "title": "Medium", "url": "https://medium.com/@saeedvaziry" }
+  ],
+  "skills": [
+    { "title": "PHP", "experience": 12 },
+    { "title": "Laravel", "experience": 10 },
+    { "title": "Symfony", "experience": 3 },
+    { "title": "JavaScript", "experience": 10 },
+    { "title": "Node.js", "experience": 3 },
+    { "title": "Vue.js", "experience": 4 },
+    { "title": "MySQL", "experience": 12 },
+    { "title": "Payments", "experience": 8 },
+    { "title": "Leadership", "experience": 3 },
+    { "title": "Fintech", "experience": 8 }
+  ],
+  "tools": [
+    "Docker",
+    "Kubernetes",
+    "Redis",
+    "Elasticsearch",
+    "Grafana",
+    "Git",
+    "CI/CD",
+    "Agile",
+    "Scrum",
+    "PHPUnit",
+    "AWS",
+    "Google Cloud",
+    "Go",
+    "Python",
+    "React",
+    "Sqlite",
+    "PostgreSQL",
+    "MongoDB",
+    "Kafka",
+    "Flink",
+    "Nginx",
+    "Apache",
+    "Jenkins"
+  ],
+  "languages": [
+    { "language": "English", "level": "Professional" },
+    { "language": "Persian", "level": "Native" },
+    { "language": "Turkish", "level": "Professional" },
+    { "language": "German", "level": "Intermediate" }
+  ],
+  "projects": [
+    {
+      "title": "VitoDeploy",
+      "description": "<a href=\"https://vitodeploy.com\" class=\"text-primary-600\" target=\"_blank\">Vito</a> is an open-source and self-hosted web application that helps you to manage your servers and deploy your PHP applications into production servers without a hassle.",
+      "url": "https://vitodeploy.com"
+    },
+    {
+      "title": "FreeIPAPI",
+      "description": "<a href=\"https://freeipapi.com\" class=\"text-primary-600\" target=\"_blank\">FreeIPAPI</a> is a software that provides IP to Geo Location service for Free",
+      "url": "https://freeipapi.com"
+    }
+  ],
+  "courses": [
+    {
+      "title": "Confident and Successful People Leadership, Troodi",
+      "date": "2023-03"
+    },
+    {
+      "title": "Motivation – Motivating Myself and Others, Troodi",
+      "date": "2023-03"
+    },
+    { "title": "Effective Communication, Troodi", "date": "2023-02" }
+  ]
+}

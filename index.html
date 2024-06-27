@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head x-data="">
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/jpeg" href="/avatar.jpeg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title x-text="window.cv.name"></title>
+</head>
+
+<body x-data="" class="text-sm p-3">
+  <div class="mx-auto max-w-4xl">
+    <div class="grid grid-cols-3 gap-6">
+      <div class="col-span-2 space-y-5">
+        <div class="flex items-center">
+          <img src="/avatar.jpeg" x-bind:alt="window.cv.name"
+            class="rounded-full size-24 shadow-xl border-2 border-primary-300">
+          <div class="ml-2">
+            <h1 x-text="window.cv.name" class="text-3xl font-semibold"></h1>
+            <div class="text-lg font-normal text-gray-600 mt-1" x-text="window.cv.title"></div>
+            <div class="mt-1 flex items-center">
+              <template x-for="link in window.cv.links">
+                <div class="text-md mr-2 text-primary-600">
+                  <a x-bind:href="link.url" x-text="link.title" target="_blank"></a>
+                </div>
+              </template>
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h2 class="text-xl font-bold">Summary</h2>
+          <div>
+            <p class="text-md" x-text="window.cv.summary"></p>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h2 class="text-xl font-bold">Experiences</h2>
+          <div class="space-y-2">
+            <template x-for="experience in window.cv.experiences">
+              <div class="break-inside-avoid">
+                <h3 class="text-lg font-semibold" x-text="experience.title"></h3>
+                <div class="mt-1 flex items-center text-gray-500 text-xs">
+                  <span x-text="experience.start"></span>
+                  <span class="mx-1">→</span>
+                  <span x-text="experience.end"></span>
+                </div>
+                <p class="mt-2" x-html="experience.description"></p>
+              </div>
+            </template>
+          </div>
+        </div>
+
+        <div class="space-y-2 break-inside-avoid">
+          <h2 class="text-xl font-bold">Educations</h2>
+          <template x-for="education in window.cv.educations">
+            <div>
+              <h3 class="text-md font-semibold" x-text="education.field"></h3>
+              <div class="mt-1 flex items-center text-gray-500 text-xs">
+                <span x-text="education.date.start"></span>
+                <span class="mx-1">→</span>
+                <span x-text="education.date.end"></span>
+              </div>
+              <div class="mt-2">
+                <span x-html="education.degree"></span> at <span x-html="education.school"></span>
+              </div>
+            </div>
+          </template>
+        </div>
+
+        <div class="space-y-2 break-inside-avoid">
+          <h2 class="text-xl font-bold">Projects</h2>
+          <template x-for="project in window.cv.projects">
+            <div>
+              <div class="flex items-center">
+                <a x-bind:href="project.url" target="_blank">
+                  <h3 class="text-md font-semibold" x-text="project.title"></h3>
+                </a>
+              </div>
+              <p class="mt-2" x-html="project.description"></p>
+            </div>
+          </template>
+        </div>
+
+        <div class="space-y-2 break-inside-avoid">
+          <h2 class="text-xl font-bold">Courses</h2>
+          <template x-for="course in window.cv.courses">
+            <div>
+              <h3 class="text-md font-normal" x-text="course.title"></h3>
+              <div class="mt-1 flex items-center text-gray-500 text-xs">
+                <span x-text="course.date"></span>
+              </div>
+            </div>
+          </template>
+        </div>
+      </div>
+      <div class="col-span-1 space-y-3">
+        <div class="space-y-2">
+          <h2 class="text-xl font-bold">Contact Information</h2>
+          <div>
+            <div class="text-md" x-html="window.cv.address"></div>
+            <div class="text-md" x-html="window.cv.country"></div>
+            <div class="text-md" x-html="window.cv.phone"></div>
+            <a class="text-md text-primary-600" x-html="window.cv.email" x-bind:href="`mailto:${window.cv.email}`"></a>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h2 class="text-xl font-bold">Skills</h2>
+          <div class="space-y-2">
+            <template x-for="skill in window.cv.skills">
+              <div class="flex items-center justify-between">
+                <span class="font-medium" x-text="skill.title"></span>
+                <span class="text-gray-600" x-text="`${skill.experience} yrs`"></span>
+              </div>
+            </template>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h2 class="text-xl font-bold">Also Used</h2>
+          <div class="space-y-2 flex items-center flex-wrap">
+            <template x-for="tool in window.cv.tools">
+              <div class="font-medium border-primary-600 border-2 text-primary-600 px-2 py-1 rounded-md mr-2"
+                x-text="tool">
+              </div>
+            </template>
+          </div>
+        </div>
+
+        <div class="space-y-2 break-inside-avoid">
+          <h2 class="text-xl font-bold">Professional Summary</h2>
+          <div class="space-y-2 flex items-center flex-wrap">
+            <p x-text="window.cv.professional_summary"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
