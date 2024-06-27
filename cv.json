@@ -1,6 +1,6 @@
 {
   "name": "Saeed Vaziry",
-  "title": "Tech Lead / Software Engineer",
+  "title": "Senior Software Engineer / Tech Lead",
   "email": "sa.vaziry@gmail.com",
   "phone": "",
   "country": "Germany",
@@ -112,10 +112,10 @@
     "Jenkins"
   ],
   "languages": [
-    { "language": "English", "level": "Professional" },
-    { "language": "Persian", "level": "Native" },
-    { "language": "Turkish", "level": "Professional" },
-    { "language": "German", "level": "Intermediate" }
+    { "name": "English", "level": "Professional / Fluent" },
+    { "name": "German", "level": "Intermediate" },
+    { "name": "Persian", "level": "Native" },
+    { "name": "Turkish", "level": "Native" }
   ],
   "projects": [
     {

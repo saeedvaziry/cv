@@ -129,6 +129,18 @@
           </div>
         </div>
 
+        <div class="space-y-2">
+          <h2 class="text-xl font-bold">Languages</h2>
+          <div class="space-y-2">
+            <template x-for="language in window.cv.languages">
+              <div class="flex items-center justify-between">
+                <span class="font-medium" x-text="language.name"></span>
+                <span class="text-gray-600" x-text="language.level"></span>
+              </div>
+            </template>
+          </div>
+        </div>
+
         <div class="space-y-2 break-inside-avoid">
           <h2 class="text-xl font-bold">Professional Summary</h2>
           <div class="space-y-2 flex items-center flex-wrap">
